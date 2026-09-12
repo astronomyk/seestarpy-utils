@@ -1,0 +1,27 @@
+# Credentials — never commit
+crowdsky_config.toml
+!crowdsky_config.example.toml
+.env
+.env.*
+!.env.example
+
+# Python
+*__pycache__/
+*.pyc
+_build/
+dist/
+.venv/
+
+# Editors
+.idea/
+.ideas/
+
+# Assistant scratch
+.claude/
+
+# Observation data must never land in the repo
+*.fit
+*.fits
+*.fit.gz
+*.fits.gz
+*.fz
